@@ -1,13 +1,17 @@
 import { ref, computed } from 'vue'
 import axios from 'axios'
+require('dotenv').config();
 
 const todos = ref([])
 
 const api = axios.create({
-  baseURL: import.meta.env.API_URL,
+  baseURL: process.env.API_URL,
+  //baseURL: 'https://api.learningweb.site/api/todos',
   params: {
-    username: import.meta.env.API_USERNAME,
-    password: import.meta.env.API_PASSWORD,
+    //username: import.meta.env.API_USERNAME,
+    //password: import.meta.env.API_PASSWORD,
+    username: 'admin',
+    password: 'admin'
   },
 })
 
