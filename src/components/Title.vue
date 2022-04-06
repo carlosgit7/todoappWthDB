@@ -17,7 +17,7 @@
 
 <template>
     <h1
-        class="pb-4 text-7xl font-medium tracking-tight text-center text-gray-200"
+        class="pb-4 text-7xl font-medium tracking-tight text-center text-gray-400"
     >
         My Todo List
     </h1>
@@ -25,7 +25,7 @@
         @change="add"
         v-model="newTodo"
         type="text"
-        class="px-4 py-2 text-xl text-center rounded-lg hover:bg-gray-200 transition-colors duration-200"
+        class="px-4 py-2 text-xl text-center rounded-lg bg-white hover:bg-gray-200 transition-colors duration-200"
         placeholder="New Task"
       />
 </template>

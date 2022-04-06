@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="min-h-screen bg-teal-600">
+  <div class="min-h-screen bg-sky-900">
     <div class="container flex flex-col pt-8 mx-auto w-2/3 space-y-8">
       <Title />
       <div class="flex justify-around">
